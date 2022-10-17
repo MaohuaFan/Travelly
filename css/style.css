@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 body {
-
+    background-color: #4c6e97;
 }
 
-.colors {
-    color: #131c27;
-    color: #4c6e97;
+nav {
+    background-color:#131c27;
 }
