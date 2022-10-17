@@ -3,12 +3,66 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    text-decoration: none;
 }
 
 body {
-    background-color: #4c6e97;
+    min-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+    background-color:#131c27;
 }
 
 nav {
-    background-color:#131c27;
+    
+    list-style: none;
+    text-decoration: none;
+    position: sticky;
+    top:0;
+    left:0;
+    width: 100vw;
+    max-height: 5.5vh;
+    display: flex;
+
+}
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    
+}
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+main {  
+    height: 70vh;
+}
+
+main section {
+    background-color: #4c6e97;
+}
+
+.s1{
+    background-image: url(../img/landing-page.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+}
+
+.s2 {
+    background-image: url(../img/new-york-page.png);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+}
+
+.s3 {
+    background-image: url(../img/contact-mountain.png);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100vw;
 }
