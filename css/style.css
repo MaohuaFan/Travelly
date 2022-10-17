@@ -39,15 +39,15 @@ main {
     height: 70vh;
 }
 
-main section {
+.button {
     background-color: #4c6e97;
 }
 
 .s1{
     background-image: url(../img/landing-page.jpg);
-    height: 30vh;
+    height: 90vh;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 90%;
     width: 100vw;
 }
 
